@@ -84,4 +84,10 @@ input {
   display: inline-block;
   margin: 5px; }
 
+@media (max-width: 600px) {
+  .capa {
+    width: 270px; }
+    .capa h1 {
+      font-size: 40px; } }
+
 /*# sourceMappingURL=main.css.map */
