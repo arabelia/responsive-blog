@@ -1,4 +1,4 @@
-$blaco:#fff;
+$blanco:#fff;
 $naranja:#EFAB52;
 $negro:#111;
 $gris-o:#201B1B;
@@ -12,7 +12,7 @@ $centro: center;
 $t-frag: 290px;
 
 body{text-align:$centro; margin:auto;}
-p{color: $blaco; font-size: $diez; font-family:$opensan;}
+p{color: $blanco; font-size: $diez; font-family:$opensan; padding:.2em;}
 h3{color: $naranja; font-size: $veinte; font-family:$curguete;}
 .espacio{padding:$diez 0;}
 .contenedor{width:70%; margin:auto;}
@@ -23,8 +23,8 @@ a:hover{text-decoration:none;}
 // menu
 .menu{
 	img{width:200px;}
-	ul{padding-top:1em;}
-	a{color: $blaco; padding:.4em;}
+	ul{padding-top:1em; padding-right:5px;}
+	a{color: $blanco; padding:.4em; font-style:italic; font-size:$diez;}
 }
 // portada
 .portada{
@@ -44,13 +44,10 @@ a:hover{text-decoration:none;}
 }
 // contenido
 .fragancias{
-	li{
-		width:$t-frag;
-		display:inline-block;
-		margin:.3em;
-		padding:-3px;
-		img{width:$t-frag; height:150px; padding:-5px;}
-		div{background: $gris-o; width: $t-frag - 10px; padding:.8em 0;}
-	}
+	div{padding:1em;} 
+	.col-sm4 div{padding:.3em;}
+	p,h3{font-style:italic;}
 }
 
+input{border:none; border-radius:4px; width:90%; padding: 2px; margin-left:1em; margin-right:1em;}
+.redes{color:$blanco; width:25px; border-radius: 10px; background:$gris-c; display:inline-block;margin:5px;}

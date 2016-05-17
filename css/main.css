@@ -5,7 +5,8 @@ body {
 p {
   color: #fff;
   font-size: 10px;
-  font-family: "Open Sans"; }
+  font-family: "Open Sans";
+  padding: .2em; }
 
 h3 {
   color: #EFAB52;
@@ -34,10 +35,13 @@ a:hover {
 .menu img {
   width: 200px; }
 .menu ul {
-  padding-top: 1em; }
+  padding-top: 1em;
+  padding-right: 5px; }
 .menu a {
   color: #fff;
-  padding: .4em; }
+  padding: .4em;
+  font-style: italic;
+  font-size: 10px; }
 
 .portada {
   height: 250px;
@@ -57,18 +61,27 @@ a:hover {
     font-size: 60px;
     font-family: "Courgette"; }
 
-.fragancias li {
-  width: 290px;
+.fragancias div {
+  padding: 1em; }
+.fragancias .col-sm4 div {
+  padding: .3em; }
+.fragancias p, .fragancias h3 {
+  font-style: italic; }
+
+input {
+  border: none;
+  border-radius: 4px;
+  width: 90%;
+  padding: 2px;
+  margin-left: 1em;
+  margin-right: 1em; }
+
+.redes {
+  color: #fff;
+  width: 25px;
+  border-radius: 10px;
+  background: #514D4D;
   display: inline-block;
-  margin: .3em;
-  padding: -3px; }
-  .fragancias li img {
-    width: 290px;
-    height: 150px;
-    padding: -5px; }
-  .fragancias li div {
-    background: #201B1B;
-    width: 280px;
-    padding: .8em 0; }
+  margin: 5px; }
 
 /*# sourceMappingURL=main.css.map */
