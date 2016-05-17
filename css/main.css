@@ -4,13 +4,14 @@ body {
 
 p {
   color: #fff;
-  font-size: 10px; }
+  font-size: 10px;
+  font-family: "Open Sans"; }
 
 .espacio {
   padding: 10px 0; }
 
 .contenedor {
-  width: 700px;
+  width: 70%;
   margin: auto; }
 
 .f-gris-o {
@@ -18,5 +19,34 @@ p {
 
 .f-gris-c {
   background: #514D4D; }
+
+.centrar {
+  text-align: center; }
+
+.menu img {
+  width: 200px; }
+.menu ul {
+  padding-top: 1em; }
+.menu a {
+  color: #fff;
+  padding: .4em; }
+
+.portada {
+  height: 250px;
+  background-image: url("../image/header-image.jpg");
+  background-size: cover;
+  background-repeat: no-repeat; }
+
+.capa {
+  width: 360px;
+  display: inline-block;
+  margin-top: 3em;
+  padding: 10px 0;
+  background: #111;
+  vertical-align: center; }
+  .capa h1 {
+    color: #EFAB52;
+    font-size: 60px;
+    font-family: "Courgette"; }
 
 /*# sourceMappingURL=main.css.map */

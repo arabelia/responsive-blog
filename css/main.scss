@@ -1,17 +1,39 @@
 $blaco:#fff;
 $naranja:#EFAB52;
+$negro:#111;
 $gris-o:#201B1B;
 $gris-c:#514D4D;
-$f-curguete:"Courgette";
-$f-opensan:"Open Sans";
+$curguete:"Courgette";
+$opensan:"Open Sans";
 $diez: 10px;
 $veinte: 20px;
+$sesenta: 60px;
 $centro: center;
 
 body{text-align:$centro; margin:auto;}
-p{color: $blaco; font-size: $diez;}
+p{color: $blaco; font-size: $diez; font-family:$opensan;}
 .espacio{padding:$diez 0;}
-.contenedor{width:700px; margin:auto;}
+.contenedor{width:70%; margin:auto;}
 .f-gris-o{background: $gris-o;}
 .f-gris-c{background: $gris-c;}
-
+.centrar{text-align:center;}
+.menu{
+	img{width:200px;}
+	ul{padding-top:1em;}
+	a{color: $blaco; padding:.4em;}
+}
+.portada{
+	height:250px;
+	background-image:url("../image/header-image.jpg");
+	background-size: cover;
+	background-repeat:no-repeat;
+}
+.capa{
+	width:360px;
+	display:inline-block;
+	margin-top:3em;
+	padding: $diez 0;
+	background:$negro;
+	vertical-align: center;
+	h1{color:$naranja; font-size:$sesenta; font-family:$curguete;}
+}
