@@ -9,19 +9,24 @@ $diez: 10px;
 $veinte: 20px;
 $sesenta: 60px;
 $centro: center;
+$t-frag: 290px;
 
 body{text-align:$centro; margin:auto;}
 p{color: $blaco; font-size: $diez; font-family:$opensan;}
+h3{color: $naranja; font-size: $veinte; font-family:$curguete;}
 .espacio{padding:$diez 0;}
 .contenedor{width:70%; margin:auto;}
 .f-gris-o{background: $gris-o;}
 .f-gris-c{background: $gris-c;}
 .centrar{text-align:center;}
+a:hover{text-decoration:none;}
+// menu
 .menu{
 	img{width:200px;}
 	ul{padding-top:1em;}
 	a{color: $blaco; padding:.4em;}
 }
+// portada
 .portada{
 	height:250px;
 	background-image:url("../image/header-image.jpg");
@@ -37,3 +42,15 @@ p{color: $blaco; font-size: $diez; font-family:$opensan;}
 	vertical-align: center;
 	h1{color:$naranja; font-size:$sesenta; font-family:$curguete;}
 }
+// contenido
+.fragancias{
+	li{
+		width:$t-frag;
+		display:inline-block;
+		margin:.3em;
+		padding:-3px;
+		img{width:$t-frag; height:150px; padding:-5px;}
+		div{background: $gris-o; width: $t-frag - 10px; padding:.8em 0;}
+	}
+}
+
