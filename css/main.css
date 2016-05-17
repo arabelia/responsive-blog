@@ -1,11 +1,22 @@
-/* Inserta tu codigo aqui */
-*{outline:1px solid rgba(245,0,30,0.3);}
-/* Responsive */
+body {
+  text-align: center;
+  margin: auto; }
 
-@media screen and (max-width : 920px) {
+p {
+  color: #fff;
+  font-size: 10px; }
 
-}
+.espacio {
+  padding: 10px 0; }
 
-@media screen and (max-width: 600px) {
+.contenedor {
+  width: 700px;
+  margin: auto; }
 
-}
+.f-gris-o {
+  background: #201B1B; }
+
+.f-gris-c {
+  background: #514D4D; }
+
+/*# sourceMappingURL=main.css.map */

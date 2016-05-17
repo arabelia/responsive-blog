@@ -1,0 +1,17 @@
+$blaco:#fff;
+$naranja:#EFAB52;
+$gris-o:#201B1B;
+$gris-c:#514D4D;
+$f-curguete:"Courgette";
+$f-opensan:"Open Sans";
+$diez: 10px;
+$veinte: 20px;
+$centro: center;
+
+body{text-align:$centro; margin:auto;}
+p{color: $blaco; font-size: $diez;}
+.espacio{padding:$diez 0;}
+.contenedor{width:700px; margin:auto;}
+.f-gris-o{background: $gris-o;}
+.f-gris-c{background: $gris-c;}
+
